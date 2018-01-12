@@ -41,3 +41,8 @@ img {
 .part-time {
   display: none;
 }
+
+p {
+  padding-top: 18px;
+  padding-bottom: 10px;
+}

@@ -21,7 +21,7 @@ $(document).ready(function() {
     //     $(".experience").hide("#yes");
     //   };
   $("#programLength").submit(function(event) {
-    var programLength = $("input:radio[name=type]:checked").val();
+    var programLength = $("input:radio[name=length]:checked").val();
 
     if (programLength === "Yes") {
       $(".full-length").show(".full-time");
