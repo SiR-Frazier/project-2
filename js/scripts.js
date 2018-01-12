@@ -20,16 +20,16 @@ $(document).ready(function() {
     //     $(".experience").show("#no");
     //     $(".experience").hide("#yes");
     //   };
-  $("#programLength").submit(function(event) {
-    var programLength = $("input:radio[name=length]:checked").val();
-
-    if (programLength === "Yes") {
-      $(".full-length").show(".full-time");
-      $(".evening-class").hide(".part-time");
-    } else {
-      $(".evening-class").show(".part-time");
-      $(".full-length").hide(".full-time");
-    };
+  // $("#programLength").submit(function(event) {
+  //   var programLength = $("input:radio[name=length]:checked").val();
+  //
+  //   if (programLength === "Yes") {
+  //     $(".full-length").show(".full-time");
+  //     $(".evening-class").hide(".part-time");
+  //   } else {
+  //     $(".evening-class").show(".part-time");
+  //     $(".full-length").hide(".full-time");
+  //   };
     event.preventDefault();
   });
 

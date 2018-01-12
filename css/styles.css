@@ -1,6 +1,10 @@
+body {
+  background-color: #617ed4;
+  color: #b0e0e6;
+}
 h1 {
   font-family: cursive;
-  color: #ADD8E6;
+  color: #b0e0e6;
   text-align: center;
   padding-bottom: 1em;
 }
@@ -14,6 +18,12 @@ h1 {
 
 h2 {
   font-family: Verdana;
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+#top {
+  text-align: center;
 }
 
 ul {
@@ -22,12 +32,17 @@ ul {
 
 img {
   float: center;
-  width: 250px;
-  height: 250px;
+  width: 225px;
+  height: 225px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
+}
+
+li {
+  font-size: 1em;
+  padding-bottom:10px;
 }
 
 .experience {
