@@ -12,6 +12,17 @@ $(document).ready(function() {
       $(".back-end").show();
       $(".front-end").hide();
     };
+
+  // $("#experience").submit(function() {
+  //   var experience = $("input:radio[name=type]:checked").val();
+  //
+  //   if (experience === "yes") {
+  //     $(".experience").show("#yes");
+  //     $(".experience").hide("#no");
+  //   } else {
+  //     $(".experience").show("#no");
+  //     $(".experience").hide("#yes");
+  //   };
     event.preventDefault();
   });
 
