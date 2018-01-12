@@ -1,6 +1,3 @@
-//
-
-//front, ui logic
 $(document).ready(function() {
   $("#preference").submit(function(event) {
     var preference = $("input:radio[name=type]:checked").val();
@@ -12,18 +9,19 @@ $(document).ready(function() {
       $(".back-end").show();
       $(".front-end").hide();
     };
-
-  // $("#experience").submit(function() {
-  //   var experience = $("input:radio[name=type]:checked").val();
   //
-  //   if (experience === "yes") {
-  //     $(".experience").show("#yes");
-  //     $(".experience").hide("#no");
-  //   } else {
-  //     $(".experience").show("#no");
-  //     $(".experience").hide("#yes");
-  //   };
-    event.preventDefault();
-  });
+    // $("#experience").submit(function(event) {
+    //   var experience = $("input:radio[name=type]:checked").val();
+    //
+    //   if (experience === "yes") {
+    //     $(".experience").show("#yes");
+    //     $(".experience").hide("#no");
+    //   } else {
+    //     $(".experience").show("#no");
+    //     $(".experience").hide("#yes");
+    //   };
+    $
+      event.preventDefault();
+    });
 
 });
