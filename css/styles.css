@@ -10,6 +10,24 @@ h1 {
   padding-bottom: 1em;
 }
 
+
+/*.container {
+  text-align: justify;
+  padding: 10px;
+  margin: auto;
+}*/
+
+.jumbotron {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  border-radius: 5%;
+  /*background-color: white;*/
+}
+#coding {
+  border-radius: 15%;
+  max-height: 70%;
+}
+
 .front-end, .back-end {
   display: none;
   /*font-size: 1.25em;*/
