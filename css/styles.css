@@ -21,6 +21,7 @@ h1 {
   padding-top: 15px;
   padding-bottom: 5px;
   border-radius: 5%;
+  color: #b0e0e6;
   /*background-color: white;*/
 }
 #coding {
@@ -82,6 +83,6 @@ p {
   /*font-size: 1em;*/
 }
 
-#yes-pairs, #no-pairs {
+#yes-pairs, #not-so-much {
   display: none;
 }

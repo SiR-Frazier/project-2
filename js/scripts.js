@@ -30,6 +30,16 @@ $(document).ready(function() {
   //     $(".evening-class").show(".part-time");
   //     $(".full-length").hide(".full-time");
   //   };
+  // $("#pairs").submit(function(event) {
+  //   var pairs = $("input:radio[name=pairs]:checked").val();
+  //
+  //   if (pairs === "Yes") {
+  //     $(".pairs-yes").show("#yes-pairs");
+  //     $(".pairs-no").hide("#not-so-much");
+  //   } else {
+  //     $(".pairs-no").show("#not-so-much");
+  //     $(".pairs-yes").hide("#yes-pairs");
+  //   };
     event.preventDefault();
   });
 
