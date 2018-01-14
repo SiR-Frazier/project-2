@@ -65,7 +65,7 @@ li {
   padding-bottom:10px;
 }
 
-.experience {
+.experience, .inexperience {
   display: none;
 }
 

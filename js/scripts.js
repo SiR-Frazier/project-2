@@ -9,17 +9,20 @@ $(document).ready(function() {
       $(".back-end").show();
       $(".front-end").hide();
     };
-  //
-    // $("#experience").submit(function(event) {
-    //   var experience = $("input:radio[name=type]:checked").val();
-    //
-    //   if (experience === "yes") {
-    //     $(".experience").show("#yes");
-    //     $(".experience").hide("#no");
-    //   } else {
-    //     $(".experience").show("#no");
-    //     $(".experience").hide("#yes");
-    //   };
+
+  //Experience form//
+  $("#experience").submit(function(event) {
+    var experience = $("input:radio[name=type]:checked").val();
+
+    if (experience === "background") {
+      $(".experience").show("#yes");
+      $(".inexperience").hide();
+    } else {
+      $(".inexperience").show();
+      $(".experience").hide();
+    };
+  //End//
+  // //programLength form//
   // $("#programLength").submit(function(event) {
   //   var programLength = $("input:radio[name=length]:checked").val();
   //
@@ -30,6 +33,8 @@ $(document).ready(function() {
   //     $(".evening-class").show(".part-time");
   //     $(".full-length").hide(".full-time");
   //   };
+  //   //End//
+  //   // Pairs form//
   // $("#pairs").submit(function(event) {
   //   var pairs = $("input:radio[name=pairs]:checked").val();
   //
@@ -37,9 +42,12 @@ $(document).ready(function() {
   //     $(".pairs-yes").show("#yes-pairs");
   //     $(".pairs-no").hide("#not-so-much");
   //   } else {
-  //     $(".pairs-no").show("#not-so-much");
-  //     $(".pairs-yes").hide("#yes-pairs");
+  //     $(".pairs-no").show();
+  //     $(".pairs-yes").hide();
   //   };
+  //   //end//
+  });
+
     event.preventDefault();
   });
 
