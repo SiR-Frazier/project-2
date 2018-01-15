@@ -16,8 +16,13 @@
       </div>
       <h2 id="top">Front End Developing vs Back End Developing</h2>
       <ul>
-        <li>Front End: Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design.</li>
-        <li>Back End: Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers.</p>
+        <li>
+          Front End: Front-end developers spend their time making things look and work well, obsessing over layouts, navigation, colors, and design.
+        </li>
+
+        <li>
+          Back End: Back-end developers are usually write the web services and APIs used by front-end developers and mobile application developers.
+        </li>
       </ul>
       <h2>Do you prefer front-end or back-end?</h2>
       <form id="preference">
@@ -34,14 +39,20 @@
               Back-End
           </label>
         </div>
-        <button type="submit" class="btn">Submit</button>
+        <button id="prefSubmit" type="submit" class="btn">Submit</button>
       </form>
 
       <div class="front-end">
-        <ul class="front">
-          <li><u>HTML</u>: Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.</li>
-          <li><u>CSS</u>: Cascading Style Sheet can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics</li>
-          <li><u>Javascript</u>: JavaScript (JS) is a programming language used to make web pages interactive.</li>
+        <ul>
+          <li>
+            <u>HTML</u>: Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications.
+          </li>
+          <li>
+            <u>CSS</u>: Cascading Style Sheet can define color, font, text alignment, size, borders, spacing, layout and many other typographic characteristics
+          </li>
+          <li>
+            <u>Javascript</u>: JavaScript (JS) is a programming language used to make web pages interactive.
+          </li>
         </ul>
       </div>
 
@@ -56,27 +67,28 @@
         </ul>
       </div>
 
-      <h2>Do you have any experience in coding?</h3>
+      <h2>Do you have any experience in coding?</h2>
       <form id="experience">
         <div class="radio">
           <label>
-            <input type="radio" name="type" value="background" checked>
+            <input class="expRadio" type="radio" name="type" value="yes" checked>
               Yes
           </label>
         </div>
 
         <div class-radio="radio">
           <label>
-            <input type="radio" name="type" value="background" checked>
+            <input class="expRadio" type="radio" name="type" value="no" checked>
               No
           </label>
         </div>
-        <button type="button" class="btn">Submit</button>
+        <button id="expSubmit" type="submit" class="btn">Submit</button>
       </form>
 
       <div class="experience">
         <p id="yes">Excellent! Depending on your past experience, you may want to explore more challenging languages, such as Java, C#, or C++</p>
       </div>
+
       <div class="inexperience">
         <p id="no">No problem! People from various backgrounds come to Epicodus. Some have no experience whatsoever and are looking to make a career change. So, you're in good company!</p>
       </div>
@@ -85,30 +97,34 @@
       <form id="programLength">
         <div class="radio">
           <label>
-            <input type="radio" name="length" value="Yes" checked>
+            <input class="plRadio" type="radio" name="length" value="Yes" checked>
             Yes
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="length" value="No" checked>
+            <input class="plRadio" type="radio" name="length" value="No" checked>
             No
           </label>
         </div>
         <button type="submit" class="length">Submit</button>
       </form>
 
-      <div class="full-length">
-        <p class="full-time">Our full-time program consists of over 800 hours classroom learning, 80 hours of job and internship preparation, and 150 hours of internship learning.</p>
+      <div class="full-time">
+        <p>Our full-time program consists of over 800 hours classroom learning, 80 hours of job and internship preparation, and 150 hours of internship learning.</p>
       </div>
 
       <div class="evening-class">
-        <p class="part-time">We understand how demanding this program can be. Many of our students work full-time jobs among other responsibilities. We offer a 15 week introduction course on Mondays and Wednesdays from 6-9pm</p>
+        <p>
+          We understand how demanding this program can be. Many of our students work full-time jobs among other responsibilities. We offer a 15 week introduction course on Mondays and Wednesdays from 6-9pm
+        </p>
       </div>
 
       <p>If you are new to developing, we recommend that you consider the Ruby track or Python. You can learn more about our Ruby track <a href="https://www.epicodus.com/ruby">here.</a>
+      </p>
 
-      <p>However, PHP is especially popular for content-heavy websites. It's known for it's use in content management systems like Wordpress. Click <a href="https://www.epicodus.com/php">here</a> to learn more about our PHP program.</p>
+      <p>However, PHP is especially popular for content-heavy websites. It's known for it's use in content management systems like Wordpress. Click <a href="https://www.epicodus.com/php">here</a> to learn more about our PHP program.
+      </p>
 
       <h2>Do you enjoy working in pairs?</h2>
       <form id="pairs">
